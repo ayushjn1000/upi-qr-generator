@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #001f3f, #003366);
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.marquee {
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #00ffd5;
+  font-size: 14px;
+}
+
+.card {
+  width: 100%;
+  max-width: 340px;
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.4);
+}
+
+.card h2 {
+  color: #002f6c;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.card p {
+  font-size: 13px;
+  color: #666;
+}
+
+canvas {
+  margin: 10px auto;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.footer {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #888;
+}
+
+.actions {
+  margin-top: 15px;
+}
+
+.actions button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #00baf2;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 15px;
+  }
+}
+
+.amount {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.apps img {
+  width: 32px;
+}
